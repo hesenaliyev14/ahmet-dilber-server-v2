@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_comments",
+  "info": {
+    "displayName": "Comment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "comment": {
+      "type": "text",
+      "required": true
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}

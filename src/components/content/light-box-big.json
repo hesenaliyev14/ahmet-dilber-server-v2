@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_light_box_bigs",
+  "info": {
+    "displayName": "Light Box Big",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "displayName": "Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "lightbox.item"
+    }
+  }
+}

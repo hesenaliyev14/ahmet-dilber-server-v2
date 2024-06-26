@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "operation_box_column_1s",
+  "info": {
+    "singularName": "operation-box-column-1",
+    "pluralName": "operation-box-column-1s",
+    "displayName": "Operation Box Column 1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "operationsTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "operations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::operation.operation"
+    },
+    "reviewLink": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

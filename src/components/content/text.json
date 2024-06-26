@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_texts",
+  "info": {
+    "displayName": "Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "paragraph2Column": {
+      "type": "richtext"
+    },
+    "paragraphLeft": {
+      "type": "richtext"
+    },
+    "paragraphRight": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "galleries",
+  "info": {
+    "singularName": "gallery",
+    "pluralName": "galleries",
+    "displayName": "Gallery",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "operationArea": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gallery-operation-area.gallery-operation-area"
+    },
+    "operationType": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gallery-operation-type.gallery-operation-type"
+    },
+    "coverPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "photos": {
+      "displayName": "Photo",
+      "type": "component",
+      "repeatable": true,
+      "component": "gallery.photo",
+      "required": true
+    },
+    "sort": {
+      "type": "float"
+    }
+  }
+}

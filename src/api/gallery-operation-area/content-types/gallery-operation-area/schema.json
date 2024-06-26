@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_operation_areas",
+  "info": {
+    "singularName": "gallery-operation-area",
+    "pluralName": "gallery-operation-areas",
+    "displayName": "Gallery Operation Area",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}

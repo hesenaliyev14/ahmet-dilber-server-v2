@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_content_light_box_smalls",
+  "info": {
+    "displayName": "Light Box Small",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "column1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "lightbox.item"
+    },
+    "column2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "lightbox.item"
+    }
+  }
+}

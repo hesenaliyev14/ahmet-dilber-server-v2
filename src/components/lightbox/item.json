@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_light_box_items",
+  "info": {
+    "displayName": "Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

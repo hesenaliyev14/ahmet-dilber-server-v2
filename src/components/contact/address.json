@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_addresses",
+  "info": {
+    "displayName": "address"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "directionsUrl": {
+      "type": "string"
+    }
+  }
+}

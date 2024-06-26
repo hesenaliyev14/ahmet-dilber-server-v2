@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_icons",
+  "info": {
+    "displayName": "Icons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "Icon Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.icon-item"
+    }
+  }
+}

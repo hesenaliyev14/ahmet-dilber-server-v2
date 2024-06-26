@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_maps",
+  "info": {
+    "displayName": "map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "string",
+      "required": true
+    },
+    "lng": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

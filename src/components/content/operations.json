@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_operations",
+  "info": {
+    "displayName": "Operations",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "operation1": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::operation-box-column-1.operation-box-column-1"
+    },
+    "operation2": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::operation-box-column-2.operation-box-column-2"
+    },
+    "operation3": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::operation-box-column-2.operation-box-column-2"
+    },
+    "operation4": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::operation-box-column-1.operation-box-column-1"
+    }
+  }
+}
